@@ -1,8 +1,10 @@
-Flask
-Flask_SQLAlchemy
-SQLAlchemy
+Flask==3.0.0
+Flask-SQLAlchemy>=3.1
+SQLAlchemy>=2.0
 boto3
-PyMySQL
-gunicorn
+PyMySQL==1.1.0
+gunicorn==21.2.0
+
+
 
 
