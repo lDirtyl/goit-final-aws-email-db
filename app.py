@@ -76,7 +76,7 @@ def build_sqlalchemy_uri():
                 f"mysql+pymysql://{username}:{password}@{DB_HOST}:{DB_PORT}/{DB_NAME}"
             )
 
-    return "sqlite:///./email.db"
+    return "sqlite:////tmp/email.db"
 
 
 # Configure SQLAlchemy
