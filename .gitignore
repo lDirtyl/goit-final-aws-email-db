@@ -1,0 +1,6 @@
+venv/
+instance/
+notes.txt
+.venv/
+__pycache__/
+email.db
